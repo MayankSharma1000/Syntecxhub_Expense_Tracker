@@ -1,0 +1,14 @@
+import { FaWallet } from "react-icons/fa";
+
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <div className="logo">
+        <FaWallet />
+        <h2>Expense Tracker</h2>
+      </div>
+    </nav>
+  );
+}
+
+export default Navbar;
